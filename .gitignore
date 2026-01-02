@@ -1,0 +1,6 @@
+.trae
+.DS_Store
+**/__pycache__
+
+example/output
+USTChorus/output
