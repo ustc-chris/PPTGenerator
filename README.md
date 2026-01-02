@@ -1,19 +1,26 @@
 # PPTGenerator
 
 
-## 建议：
+## 建议
 ### USTChorus模版
+
 先去USTChorus目录下，查看All.txt文件
+
 然后运行1.SidePPT.py，查看结果
+
 可以修改`./share/template.pptx`中的母版，来整体修改样式
+
 ### 进阶使用
+
 先去example目录下，运行1.process_to_json.py，然后在example/output目录下，查看输出的All.json，了解json格式
+
 然后查看2.json_to_ppt.py，了解如何从json格式文件创建PPT，并且运行，查看结果
+
 然后查看3.ppt_to_json.py，了解如何从PPT文件提取为json文件，并且运行，查看结果
 
 
 
-## 用法：
+## 用法
 在`share/Template.py`文件中，定义了一个Manager类，用于管理模板。你可以从现有模板中选取，也可以自己定义新的模板。
 
 当你定义新的模板的时候，需要
